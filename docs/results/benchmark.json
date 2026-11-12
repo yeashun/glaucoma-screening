@@ -1,0 +1,24 @@
+{
+  "hardware": "NVIDIA GeForce RTX 4090",
+  "precision": "fp16",
+  "batch_size": 1,
+  "timing_samples": 100,
+  "warmup_samples": 5,
+  "rounds": 3,
+  "round_mean_ms": [
+    78.76529767177999,
+    78.87297662906349,
+    82.96932674944401
+  ],
+  "mean_ms": 80.20253368342917,
+  "inconsistent_images": 0,
+  "max_probability_difference": 0,
+  "inference_artifacts_bytes": 223501278,
+  "official_T4_verified": false,
+  "native_pillow_runtime_required_for_reported_timing": true,
+  "website_score_before_acceleration": 98.13,
+  "website_score_after_acceleration": 98.13,
+  "website_score_source": "owner report, 2026-11-06",
+  "full_inference_samples": 5855,
+  "full_inference_elapsed_s": 475.4625359531492
+}

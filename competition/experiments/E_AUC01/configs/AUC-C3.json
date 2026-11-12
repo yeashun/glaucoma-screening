@@ -1,0 +1,6 @@
+{
+  "name": "AUC-C3", "rank_lambda": 0.20,
+  "epochs": 5, "backbone_lr": 0.000003, "head_lr": 0.00003,
+  "weight_decay": 0.0001, "grad_clip": 5.0,
+  "cpu_threads": 4, "workers_per_stream": 4
+}

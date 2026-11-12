@@ -1,0 +1,94 @@
+{
+  "version": "V3.0-20261103",
+  "gpu_authorization": "pending_user_allocation",
+  "auto_gpu_launch": false,
+  "baseline_config": {
+    "kind": "global",
+    "use_age": false,
+    "pretrained": true,
+    "epochs": 14,
+    "warmup_epochs": 1,
+    "effective_batch": 32,
+    "workers": 4,
+    "cpu_threads": 4,
+    "backbone_lr": 3e-05,
+    "head_lr": 0.0003,
+    "gamma": false,
+    "weight_decay": 0.0001,
+    "exclude_bias_norm_from_wd": false,
+    "backbone": "convnext_tiny",
+    "image_size": 384,
+    "batch_size": 16,
+    "seed": 42
+  },
+  "baseline_website_score": 97.96,
+  "baseline_validation_s42": {
+    "auroc": 0.9844842774628519,
+    "ap": 0.8071559342881836
+  },
+  "baseline_validation_s43": {
+    "auroc": 0.9849922918760261,
+    "ap": 0.8065406468313747
+  },
+  "official_test_for_fit_or_selection": false,
+  "official_valid_for_fusion_weight_fit": false,
+  "P1": {
+    "weights": [
+      0.5,
+      0.5
+    ],
+    "weight_search": false,
+    "source": "existing validation probabilities only"
+  },
+  "P0": {
+    "sha256_splits": [
+      "train",
+      "valid",
+      "test"
+    ],
+    "patient_id_available": false,
+    "age_as_group": false
+  },
+  "confirmations": {
+    "P2": "seed43 after seed42 improves AUROC without AP deterioration",
+    "P3": "seed43 only if both AUROC and AP improve",
+    "P5_512": "only after 448 improves AUROC by >=0.0005 with AP drop <=0.01"
+  },
+  "P4": {
+    "ema_decay": 0.999,
+    "start_after_frozen_epoch": 1,
+    "update_only_on_successful_optimizer_step": true,
+    "evaluate_both_weights_every_epoch": true,
+    "retain_original_and_ema": true
+  },
+  "OOF": {
+    "outer_folds": 5,
+    "stratified": true,
+    "risk_clusters_kept_together": true,
+    "inner_validation_fraction": 0.1,
+    "outer_holdout_used_for_checkpoint_selection": false,
+    "score_age_stack_l2_penalty": 0.001,
+    "multi_model_stack_l2_penalty": 0.001,
+    "multi_model_stack_features": "standardized model logits; no grid search",
+    "score_age_stack_features": [
+      "image_logit",
+      "standardized_train_age",
+      "missing_flag"
+    ],
+    "official_valid_used_for_weight_fitting": false,
+    "test_used_for_training_or_ssl": false
+  },
+  "promotion": {
+    "require_independent_fold_or_OOF_evidence": true,
+    "require_seed_replication": true,
+    "bootstrap_repeats": 2000,
+    "bootstrap_seed": 20261103,
+    "require_T4_latency_verified": true,
+    "maximum_model_bytes": 500000000,
+    "maximum_mean_latency_ms": 100
+  },
+  "deferred": [
+    "P8_SSL_until_supervised_routes_completed",
+    "test_prediction_until_model_frozen_and_GPU_allocated"
+  ]
+}

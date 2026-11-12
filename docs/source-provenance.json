@@ -1,0 +1,522 @@
+{
+  "competition/train.py": {
+    "origin": "competition-server",
+    "original_sha256": "45e8e8d555ec594e496090f0313d1a10e36a5a3fde9c7974811237aa86ddc76f",
+    "published_sha256": "61b73138a636b51ba5d84a31e0b1fb712e588ee74a267f9cb28e75ac7b459972"
+  },
+  "competition/predict.py": {
+    "origin": "competition-server",
+    "original_sha256": "a4e55e978ac7c210c8c1a8ff19b82530121d31d6bb20fe1b662a2887915e4f50",
+    "published_sha256": "a4e55e978ac7c210c8c1a8ff19b82530121d31d6bb20fe1b662a2887915e4f50"
+  },
+  "competition/predict_batched.py": {
+    "origin": "competition-server",
+    "original_sha256": "c0ade34138902452940c601fa8e96e8af3f96bbaf9306fecd894c282c0834060",
+    "published_sha256": "c0ade34138902452940c601fa8e96e8af3f96bbaf9306fecd894c282c0834060"
+  },
+  "competition/glaucoma/data.py": {
+    "origin": "competition-server",
+    "original_sha256": "f78129ae145f37eba542958b1d608999b690174958b53138a1bfb6daf9e0dea1",
+    "published_sha256": "40622d45c0d46c6885d1bfdc10164f55a4de626ac125b9e9fefc67246f6566be"
+  },
+  "competition/glaucoma/metrics.py": {
+    "origin": "competition-server",
+    "original_sha256": "6c5a3f719c13ed068117f34e933170a67a43f4ac0cac710c1369ce99db136d8c",
+    "published_sha256": "6c5a3f719c13ed068117f34e933170a67a43f4ac0cac710c1369ce99db136d8c"
+  },
+  "competition/glaucoma/models.py": {
+    "origin": "competition-server",
+    "original_sha256": "91cfa79bc91c8f2f5fd5ac3bee307cdf0ed6ce65f704cf0aebe21ba15812eb4b",
+    "published_sha256": "91cfa79bc91c8f2f5fd5ac3bee307cdf0ed6ce65f704cf0aebe21ba15812eb4b"
+  },
+  "competition/glaucoma/roi.py": {
+    "origin": "competition-server",
+    "original_sha256": "f38e7c41ccc41bc912276b3575404e4ba02b3cdb59aa823d93cd8859c19d0754",
+    "published_sha256": "f38e7c41ccc41bc912276b3575404e4ba02b3cdb59aa823d93cd8859c19d0754"
+  },
+  "competition/glaucoma/__init__.py": {
+    "origin": "competition-server",
+    "original_sha256": "2348f5d3651de6cb225586fe4563b0ade4bd8b158f14548976c0d84434f7210e",
+    "published_sha256": "2348f5d3651de6cb225586fe4563b0ade4bd8b158f14548976c0d84434f7210e"
+  },
+  "competition/configs/A01.effective.json": {
+    "origin": "competition-server",
+    "original_sha256": "bdae59fd5b09208f37a6f93705d620bfe1bfaaee1c80807c92305b1cf8ea5550",
+    "published_sha256": "2ce62c39d8e13676e034b90e6253e98cb98ca5a4eb611b17decc23c37187d069"
+  },
+  "competition/configs/A01.json": {
+    "origin": "competition-server",
+    "original_sha256": "2dfbebc297a44fb4d3c09d4faa194e681b2bca910d2f115f557956127c75e2c5",
+    "published_sha256": "2dfbebc297a44fb4d3c09d4faa194e681b2bca910d2f115f557956127c75e2c5"
+  },
+  "competition/configs/A02.json": {
+    "origin": "competition-server",
+    "original_sha256": "87759cfaacb520bdc9f932bce228192c20f283818e7af11a67a6cea1fdc6e530",
+    "published_sha256": "87759cfaacb520bdc9f932bce228192c20f283818e7af11a67a6cea1fdc6e530"
+  },
+  "competition/configs/B01.json": {
+    "origin": "competition-server",
+    "original_sha256": "cd76d7aab8307d4a344b277420ab3bbee3ee7d427104676db70883cac5cd773d",
+    "published_sha256": "cd76d7aab8307d4a344b277420ab3bbee3ee7d427104676db70883cac5cd773d"
+  },
+  "competition/configs/B02.json": {
+    "origin": "competition-server",
+    "original_sha256": "26676683b869b19071d9bb5deb0e4e7a20bde03bb82fc07ade5154621258608d",
+    "published_sha256": "26676683b869b19071d9bb5deb0e4e7a20bde03bb82fc07ade5154621258608d"
+  },
+  "competition/configs/C00.json": {
+    "origin": "competition-server",
+    "original_sha256": "cefcbfd0d4796629bfac2c5427475cd6c56e4400a2e572db2639f88ffc864b8a",
+    "published_sha256": "cefcbfd0d4796629bfac2c5427475cd6c56e4400a2e572db2639f88ffc864b8a"
+  },
+  "competition/configs/C01.json": {
+    "origin": "competition-server",
+    "original_sha256": "a12114e793eedd6c60a4267b73d34b83b9a1f17944e273ca75ed4d96186ca0c7",
+    "published_sha256": "a12114e793eedd6c60a4267b73d34b83b9a1f17944e273ca75ed4d96186ca0c7"
+  },
+  "competition/configs/C02.json": {
+    "origin": "competition-server",
+    "original_sha256": "fff378e2d1fed409cdae85f5b1d3f3ee79ab8ad4b028cf6c1fa9c638d6934072",
+    "published_sha256": "fff378e2d1fed409cdae85f5b1d3f3ee79ab8ad4b028cf6c1fa9c638d6934072"
+  },
+  "competition/configs/E00.effective.json": {
+    "origin": "competition-server",
+    "original_sha256": "5c65d176e78baa39da82fe23f246fa01cdbdbcde5250a05f9397bcdf9a51bbce",
+    "published_sha256": "4cd813f35e2e3e5eb068f3d7d4ba557e411145ae376952cf27eb4d1e5604a5c1"
+  },
+  "competition/configs/E00.json": {
+    "origin": "competition-server",
+    "original_sha256": "5e7662ac647db5c62dc00150d694339ebdfe780639f790b7a3b70cb3e92925ed",
+    "published_sha256": "5e7662ac647db5c62dc00150d694339ebdfe780639f790b7a3b70cb3e92925ed"
+  },
+  "competition/configs/C00_s42.json": {
+    "origin": "final-competition-code",
+    "original_sha256": "d425e2a1b63808e5dadb77335d3e3b9918728c731da83b9fe3d98f591bf02b1d",
+    "published_sha256": "d425e2a1b63808e5dadb77335d3e3b9918728c731da83b9fe3d98f591bf02b1d"
+  },
+  "competition/configs/OOF_C00_s42.json": {
+    "origin": "final-competition-code",
+    "original_sha256": "5c31ccd3b4ef77c5ffecb93242e64e5b9795f1eafa368aea3acda215a8b521d7",
+    "published_sha256": "d425e2a1b63808e5dadb77335d3e3b9918728c731da83b9fe3d98f591bf02b1d"
+  },
+  "competition/configs/OOF_P3_GAMMA_s42.json": {
+    "origin": "final-competition-code",
+    "original_sha256": "72e52158a3882e8bbd0c97dd34ada8f73553e7fb26eb301774f840522af61e5f",
+    "published_sha256": "72e52158a3882e8bbd0c97dd34ada8f73553e7fb26eb301774f840522af61e5f"
+  },
+  "competition/configs/P3_GAMMA_s42.json": {
+    "origin": "final-competition-code",
+    "original_sha256": "2cec897c72827c477222911750ae0481d6cd07ea0ec66b23eb6ede59dc969bcf",
+    "published_sha256": "72e52158a3882e8bbd0c97dd34ada8f73553e7fb26eb301774f840522af61e5f"
+  },
+  "competition/tools/prepare_data.py": {
+    "origin": "competition-server",
+    "original_sha256": "0227ab82b8cd308ef9173ab71b49bd263349538d29531bb0222dbf7ee7eeb62c",
+    "published_sha256": "0227ab82b8cd308ef9173ab71b49bd263349538d29531bb0222dbf7ee7eeb62c"
+  },
+  "competition/tools/deduplicate.py": {
+    "origin": "competition-server",
+    "original_sha256": "c511cdf675f244bebf08a316828284ac2dc97d38b7d90b417a23ce06e5b7a2a5",
+    "published_sha256": "c511cdf675f244bebf08a316828284ac2dc97d38b7d90b417a23ce06e5b7a2a5"
+  },
+  "competition/tools/download_weights.py": {
+    "origin": "competition-server",
+    "original_sha256": "a2f6d0cdb57534206d6257c8ed41a3ee0024091ee7591a967d93a2f7777fa66b",
+    "published_sha256": "a2f6d0cdb57534206d6257c8ed41a3ee0024091ee7591a967d93a2f7777fa66b"
+  },
+  "competition/tools/generate_roi.py": {
+    "origin": "competition-server",
+    "original_sha256": "0f1aab0da2574cc938c3427bbb1517c9133b073cbb4f1f3e3c11f8e23dc342da",
+    "published_sha256": "0f1aab0da2574cc938c3427bbb1517c9133b073cbb4f1f3e3c11f8e23dc342da"
+  },
+  "competition/v2_experiment/core.py": {
+    "origin": "local-v2",
+    "original_sha256": "c1ee335c85040824767a7b28e3785fa381112651b196b40c941391908bcd2067",
+    "published_sha256": "c1ee335c85040824767a7b28e3785fa381112651b196b40c941391908bcd2067"
+  },
+  "competition/v2_experiment/common.py": {
+    "origin": "local-v2",
+    "original_sha256": "dc931271be3f51c7b56eff5b49615488bd11a0b51390b9c6f4c050d5806c4d2a",
+    "published_sha256": "dc931271be3f51c7b56eff5b49615488bd11a0b51390b9c6f4c050d5806c4d2a"
+  },
+  "competition/v2_experiment/data_v2.py": {
+    "origin": "local-v2",
+    "original_sha256": "0014f87d6798580332f997bf100e5dbfbceaf9d32ea05ae791328eb2e5b9da53",
+    "published_sha256": "daeab46ff544aa195cf775194002217ede826814081cc814feed77a8b45391bf"
+  },
+  "competition/v2_experiment/train.py": {
+    "origin": "local-v2",
+    "original_sha256": "933adb318e702971afa042c681e7f9fbef03c5cbd4b585bdf1f7e49cea93cca6",
+    "published_sha256": "933adb318e702971afa042c681e7f9fbef03c5cbd4b585bdf1f7e49cea93cca6"
+  },
+  "competition/v2_experiment/build_cache.py": {
+    "origin": "local-v2",
+    "original_sha256": "98d13cdfff0bae85a0e47a70aab2bfd460abea3f976d5030e9b53f0c0b5daccc",
+    "published_sha256": "98d13cdfff0bae85a0e47a70aab2bfd460abea3f976d5030e9b53f0c0b5daccc"
+  },
+  "competition/v2_experiment/analyze.py": {
+    "origin": "local-v2",
+    "original_sha256": "fc1f3f4017cc20dadcdde69dc3b16d4648ba9a412b4fc8d18bf019c732df3dad",
+    "published_sha256": "fc1f3f4017cc20dadcdde69dc3b16d4648ba9a412b4fc8d18bf019c732df3dad"
+  },
+  "competition/v3_experiment/core.py": {
+    "origin": "local-v3",
+    "original_sha256": "4a62106e8f840626f26df13778f2a04bf0241d9554cc3ea28b823852855b99fe",
+    "published_sha256": "4a62106e8f840626f26df13778f2a04bf0241d9554cc3ea28b823852855b99fe"
+  },
+  "competition/v3_experiment/common.py": {
+    "origin": "local-v3",
+    "original_sha256": "98cf9047a41e999b5132463ff80f8a0e0264f6e368ea035a9fa93b5eb63db790",
+    "published_sha256": "98cf9047a41e999b5132463ff80f8a0e0264f6e368ea035a9fa93b5eb63db790"
+  },
+  "competition/v3_experiment/data_v3.py": {
+    "origin": "local-v3",
+    "original_sha256": "5b497c6ccacacad87e4c674a7a2dbb2375c3472be0696dafdcbe5237ca2b022e",
+    "published_sha256": "87a003934ba0fe7790c374222dd64e7fa60ac71bd28009e7e3ef6ceaa13e1089"
+  },
+  "competition/v3_experiment/train.py": {
+    "origin": "local-v3",
+    "original_sha256": "3c3c6ca226704051a53f78b10ddf698f61a0d1c36b519dbf1f14320100f4e3ca",
+    "published_sha256": "3c3c6ca226704051a53f78b10ddf698f61a0d1c36b519dbf1f14320100f4e3ca"
+  },
+  "competition/v3_experiment/ema.py": {
+    "origin": "local-v3",
+    "original_sha256": "51f257a53576e44588d853cfef788a9026bbb69cee38ad59ca0ebe4fa5af8e97",
+    "published_sha256": "51f257a53576e44588d853cfef788a9026bbb69cee38ad59ca0ebe4fa5af8e97"
+  },
+  "competition/v3_experiment/run_gpu.py": {
+    "origin": "local-v3",
+    "original_sha256": "352efdc5d0c2da27440f8202d92105938aa81fa833d0e2ef40897fc76a022e29",
+    "published_sha256": "352efdc5d0c2da27440f8202d92105938aa81fa833d0e2ef40897fc76a022e29"
+  },
+  "competition/v3_experiment/cpu_utils.py": {
+    "origin": "local-v3",
+    "original_sha256": "021edbed0f6f242cd641a3f68c87fc35cacb1555e789365aeb3076c129c17f36",
+    "published_sha256": "5b1b726a0bd6dcc17c466dfe7573bb461227de1705b05f8bf5c85c14734f47f4"
+  },
+  "competition/v3_experiment/prepare_folds.py": {
+    "origin": "local-v3",
+    "original_sha256": "99d914674d69007adc87db9959fb6e4c2ad514ef7540382ce8389d33b3b975ca",
+    "published_sha256": "99d914674d69007adc87db9959fb6e4c2ad514ef7540382ce8389d33b3b975ca"
+  },
+  "competition/v3_experiment/audit_images.py": {
+    "origin": "local-v3",
+    "original_sha256": "66d3f0079abc875caf118c27d5c11072afb3cbee96a30096f856526f3ce62972",
+    "published_sha256": "79a256f2590bed0099514b3f3838717165458ef9814eabb87745d22f2b3a67e0"
+  },
+  "competition/v3_experiment/analyze_audit.py": {
+    "origin": "local-v3",
+    "original_sha256": "734a6d1cc65e88a163a34482b451bd91b8a4a685dcc9ea07679ea3c59cc1378e",
+    "published_sha256": "734a6d1cc65e88a163a34482b451bd91b8a4a685dcc9ea07679ea3c59cc1378e"
+  },
+  "competition/v3_experiment/oof_utils.py": {
+    "origin": "local-v3",
+    "original_sha256": "4c9ed578e78f68edfedd183a0436ac8e07ef0bd3d81e2df961e0484d30d99735",
+    "published_sha256": "f05c6583a799f24ee07f379f65657414826a8ff7270ca54cb60e68bad9a10724"
+  },
+  "competition/v3_experiment/predict_oof.py": {
+    "origin": "local-v3",
+    "original_sha256": "b1d33bc09d3fbf847e6557bf7f507c6916882bf9c23ca225fed3e6e18a8dc1f0",
+    "published_sha256": "b1d33bc09d3fbf847e6557bf7f507c6916882bf9c23ca225fed3e6e18a8dc1f0"
+  },
+  "competition/v3_experiment/fit_age_stack.py": {
+    "origin": "local-v3",
+    "original_sha256": "92546b9d24f1b0f431908b5a90c8ea724b53826737be0be3921c9c67ba90c68c",
+    "published_sha256": "4e665b8c2a334267264c088f9b35b63486fdcae722929e0ddfef2677d2c35397"
+  },
+  "competition/v3_experiment/fit_model_stack.py": {
+    "origin": "local-v3",
+    "original_sha256": "e082b63ac709a0c9fe12933eab14bacaa60bdc940947377579cbb7f9f4e27638",
+    "published_sha256": "263879996e01041d9508a8f6c362bd8d899de9c8c313ef0e41a8434f1944f83b"
+  },
+  "competition/v3_experiment/evaluate_tta.py": {
+    "origin": "local-v3",
+    "original_sha256": "8797bb1a7d15386b545804209d2e8748c8587dd576dd1184fa773f1893719450",
+    "published_sha256": "8797bb1a7d15386b545804209d2e8748c8587dd576dd1184fa773f1893719450"
+  },
+  "competition/v3_experiment/evaluate_age_sensitivity.py": {
+    "origin": "local-v3",
+    "original_sha256": "4f3cce6ef55c92a7a8c2a50eddf49f89a79dbf3173e57f91fcba574cdc691a59",
+    "published_sha256": "4f3cce6ef55c92a7a8c2a50eddf49f89a79dbf3173e57f91fcba574cdc691a59"
+  },
+  "competition/v3_experiment/protocol.json": {
+    "origin": "local-v3",
+    "original_sha256": "aa5e292f80b33d23f70c5232d72e7867527827f18bd3e9d2eb88b92004082aa6",
+    "published_sha256": "a23c9174f2eb934828155c216d29690577f2ddbc11bf6e6f9e187a110a630cb2"
+  },
+  "competition/v3_experiment/configs/C00_CONTROL_s42.json": {
+    "origin": "local-v3",
+    "original_sha256": "5c31ccd3b4ef77c5ffecb93242e64e5b9795f1eafa368aea3acda215a8b521d7",
+    "published_sha256": "d425e2a1b63808e5dadb77335d3e3b9918728c731da83b9fe3d98f591bf02b1d"
+  },
+  "competition/v3_experiment/configs/OOF_AGE_s42.json": {
+    "origin": "local-v3",
+    "original_sha256": "9d49e41b1f48f4c4570a7f1e4387a9ddc0dbd118a152a8774b23abb3c3336f0d",
+    "published_sha256": "2417879b78c3c3940b6acc274f69fd931db983dd220ad081fc7da47f20b60d69"
+  },
+  "competition/v3_experiment/configs/OOF_C00_s42.json": {
+    "origin": "final-competition-code",
+    "original_sha256": "5c31ccd3b4ef77c5ffecb93242e64e5b9795f1eafa368aea3acda215a8b521d7",
+    "published_sha256": "d425e2a1b63808e5dadb77335d3e3b9918728c731da83b9fe3d98f591bf02b1d"
+  },
+  "competition/v3_experiment/configs/P2_AGE_s42.json": {
+    "origin": "local-v3",
+    "original_sha256": "9d49e41b1f48f4c4570a7f1e4387a9ddc0dbd118a152a8774b23abb3c3336f0d",
+    "published_sha256": "2417879b78c3c3940b6acc274f69fd931db983dd220ad081fc7da47f20b60d69"
+  },
+  "competition/v3_experiment/configs/P2_AGE_s43.json": {
+    "origin": "local-v3",
+    "original_sha256": "dfb44b1311e1a7157e748dcb69c6dc295da0c12b55766c3ccd9fb300374eea70",
+    "published_sha256": "25ade51fae12069765f9654cff41051a66a7b3617c7120f87ca12d230ec6b118"
+  },
+  "competition/v3_experiment/configs/P3_GAMMA_s42.json": {
+    "origin": "final-competition-code",
+    "original_sha256": "2cec897c72827c477222911750ae0481d6cd07ea0ec66b23eb6ede59dc969bcf",
+    "published_sha256": "72e52158a3882e8bbd0c97dd34ada8f73553e7fb26eb301774f840522af61e5f"
+  },
+  "competition/v3_experiment/configs/P3_GAMMA_s43.json": {
+    "origin": "local-v3",
+    "original_sha256": "2cc1b4fe5d4ce5893ca6fd7b48b1336ade3c588ab88e6d3578f15fe8fc853f7b",
+    "published_sha256": "93e76f6b691d6d5da89838ccad9f47005f78d48938c0391ebdc49b5d3138e02b"
+  },
+  "competition/v3_experiment/configs/P4_EMA_s42.json": {
+    "origin": "local-v3",
+    "original_sha256": "cc3301f9ce59075c631ec7d14ad86fb11b81f302a345c4c9934306e46cdbbd89",
+    "published_sha256": "b12d2651513835be7a99b41e38285da0e4c25b8905a2d073a22bc777becad7c3"
+  },
+  "competition/v3_experiment/configs/P5_C448_s42.json": {
+    "origin": "local-v3",
+    "original_sha256": "16cfae0da441d51019c9d3abf64ba5688dbf584880da21ff8e7c787fcd484c71",
+    "published_sha256": "8874a02edf007fefc72891c578fb5fabefaf6fc504b4dff3396e7d083806aa75"
+  },
+  "competition/v3_experiment/configs/P5_C512_s42.json": {
+    "origin": "local-v3",
+    "original_sha256": "d2b463e87a4d22401df6990c3bb432f8d2dcc742c4585c75f3024b5bd961b029",
+    "published_sha256": "a4550f37ffa865f839bdafa5a5c6868b933b2b68e5372eb9daa25522119c1071"
+  },
+  "competition/v3_experiment/configs/OOF_P3_GAMMA_s42.json": {
+    "origin": "final-competition-code",
+    "original_sha256": "72e52158a3882e8bbd0c97dd34ada8f73553e7fb26eb301774f840522af61e5f",
+    "published_sha256": "72e52158a3882e8bbd0c97dd34ada8f73553e7fb26eb301774f840522af61e5f"
+  },
+  "competition/experiments/E_AUC01/auc_pairwise_loss.py": {
+    "origin": "local-auc-experiment",
+    "original_sha256": "b6f1647e0407d2100dcf1c928ad21ded40d79b532f3307c5bd8bc89f9be25cbb",
+    "published_sha256": "b6f1647e0407d2100dcf1c928ad21ded40d79b532f3307c5bd8bc89f9be25cbb"
+  },
+  "competition/experiments/E_AUC01/train_auc_finetune.py": {
+    "origin": "local-auc-experiment",
+    "original_sha256": "66b8b80cb04694a0d0a217b9eb10f3bc1a72ceccc7304198ae140aa2d8f8f673",
+    "published_sha256": "66b8b80cb04694a0d0a217b9eb10f3bc1a72ceccc7304198ae140aa2d8f8f673"
+  },
+  "competition/experiments/E_AUC01/cached_data.py": {
+    "origin": "local-auc-experiment",
+    "original_sha256": "3499fdfa2b3287f6ec2cd52549efe1c21a9ef7c0f3331bde5db036b91fdcb419",
+    "published_sha256": "3499fdfa2b3287f6ec2cd52549efe1c21a9ef7c0f3331bde5db036b91fdcb419"
+  },
+  "competition/experiments/E_AUC01/common.py": {
+    "origin": "local-auc-experiment",
+    "original_sha256": "e4f85ea749fe9730405dc4307be41fef1880a2e6fb33b6731215078b8858dc30",
+    "published_sha256": "e4f85ea749fe9730405dc4307be41fef1880a2e6fb33b6731215078b8858dc30"
+  },
+  "competition/experiments/E_AUC01/cache_tools.py": {
+    "origin": "local-auc-experiment",
+    "original_sha256": "a6489741328afb03d7eeb6f5c95f3cf032c903b2496fad144945c34f4c17c7ba",
+    "published_sha256": "c49cebdc841334dd5785fbfb50d2407fdd34fb52ea6ab910cbbe902f21ac5689"
+  },
+  "competition/experiments/E_AUC01/predict.py": {
+    "origin": "local-auc-experiment",
+    "original_sha256": "58d40cbadc149ad9acbfc212559fd9cce8e348ee4e9c7f2549d2efa5acdd942a",
+    "published_sha256": "58d40cbadc149ad9acbfc212559fd9cce8e348ee4e9c7f2549d2efa5acdd942a"
+  },
+  "competition/experiments/E_AUC01/evaluate_auc.py": {
+    "origin": "local-auc-experiment",
+    "original_sha256": "1b963c80f225cf02570fa5d905c82e947176675d7ec21be059c3870deb655f4d",
+    "published_sha256": "1b963c80f225cf02570fa5d905c82e947176675d7ec21be059c3870deb655f4d"
+  },
+  "competition/experiments/E_AUC01/compare_auc.py": {
+    "origin": "local-auc-experiment",
+    "original_sha256": "a415b2b05a0f1bf115fcc0ac7d499e37b3028ac1fe4c9eb834161675adcb9f74",
+    "published_sha256": "a415b2b05a0f1bf115fcc0ac7d499e37b3028ac1fe4c9eb834161675adcb9f74"
+  },
+  "competition/experiments/E_AUC01/configs/AUC-C0.json": {
+    "origin": "local-auc-experiment",
+    "original_sha256": "74435dabe3bcc4ec1d45fd42c33866740da5fdcd7d8df6e414880d65c828946d",
+    "published_sha256": "74435dabe3bcc4ec1d45fd42c33866740da5fdcd7d8df6e414880d65c828946d"
+  },
+  "competition/experiments/E_AUC01/configs/AUC-C1.json": {
+    "origin": "local-auc-experiment",
+    "original_sha256": "df853d6dc7067fcf4f24deae3a44e0ca9858b980f3a8b991247d67eef4ae468d",
+    "published_sha256": "df853d6dc7067fcf4f24deae3a44e0ca9858b980f3a8b991247d67eef4ae468d"
+  },
+  "competition/experiments/E_AUC01/configs/AUC-C2.json": {
+    "origin": "local-auc-experiment",
+    "original_sha256": "3dd47da3405436169133f43cf7b81d87fda70878946b1cfc00159f313f3c8760",
+    "published_sha256": "3dd47da3405436169133f43cf7b81d87fda70878946b1cfc00159f313f3c8760"
+  },
+  "competition/experiments/E_AUC01/configs/AUC-C3.json": {
+    "origin": "local-auc-experiment",
+    "original_sha256": "1d4d6865be14cb8aad9c864d9acaa128ad035438c3900bdc87450128a492614b",
+    "published_sha256": "1d4d6865be14cb8aad9c864d9acaa128ad035438c3900bdc87450128a492614b"
+  },
+  "competition/deployment/code/predict.py": {
+    "origin": "final-competition-code",
+    "original_sha256": "e8b9b060103d340526e2c2f89d8204c0751eaa31d4bc873d23f5ec930ec79795",
+    "published_sha256": "e8b9b060103d340526e2c2f89d8204c0751eaa31d4bc873d23f5ec930ec79795"
+  },
+  "competition/deployment/code/model.py": {
+    "origin": "final-competition-code",
+    "original_sha256": "57e3b5d9959648dc5db190f9e7877ac44e12c68305ad171391e967fcacfc60f3",
+    "published_sha256": "57e3b5d9959648dc5db190f9e7877ac44e12c68305ad171391e967fcacfc60f3"
+  },
+  "competition/deployment/code/utils.py": {
+    "origin": "final-competition-code",
+    "original_sha256": "32ec5c29b14a49d8e28fe454cd320c7f772e8942f2955145426952c2824ab3f3",
+    "published_sha256": "32ec5c29b14a49d8e28fe454cd320c7f772e8942f2955145426952c2824ab3f3"
+  },
+  "competition/deployment/code/preprocessing.py": {
+    "origin": "final-competition-code",
+    "original_sha256": "3164baa523d941f294880f0ecb3b0aa43e28fe4d0bb15447a77af1c02a2f8d9a",
+    "published_sha256": "3164baa523d941f294880f0ecb3b0aa43e28fe4d0bb15447a77af1c02a2f8d9a"
+  },
+  "competition/deployment/code/graph_runtime.py": {
+    "origin": "final-competition-code",
+    "original_sha256": "7bc7679aead3882d9b452727fefa13a11292eb25cb870b46ccf012c783b28c22",
+    "published_sha256": "7bc7679aead3882d9b452727fefa13a11292eb25cb870b46ccf012c783b28c22"
+  },
+  "competition/deployment/code/image_backend.py": {
+    "origin": "final-competition-code",
+    "original_sha256": "d686fa2cfc813b57e4541692849d01155ef6158905de0f85212a1b44660ae305",
+    "published_sha256": "9c77700ab681dd136384f01331d61eae6023f18fcb933ff7062f0c4458d79f33"
+  },
+  "competition/deployment/cost.py": {
+    "origin": "final-competition-code",
+    "original_sha256": "c2f2e1f9c638026fb897dffff3a49f1253f9c36686e7b69772abafb2f889508b",
+    "published_sha256": "c2f2e1f9c638026fb897dffff3a49f1253f9c36686e7b69772abafb2f889508b"
+  },
+  "competition/deployment/native_image_source/Crop.c": {
+    "origin": "final-native-source",
+    "original_sha256": "723dbdfa32d14c7dc11df17919a75ceabbe3805f21812b2b05f15c8906d726e2",
+    "published_sha256": "723dbdfa32d14c7dc11df17919a75ceabbe3805f21812b2b05f15c8906d726e2"
+  },
+  "competition/deployment/native_image_source/Crop.c.original": {
+    "origin": "final-native-source",
+    "original_sha256": "7aac38141c41fa5d15dd6315458854b0f865ba739482c28fa6c9655a73fe7783",
+    "published_sha256": "7aac38141c41fa5d15dd6315458854b0f865ba739482c28fa6c9655a73fe7783"
+  },
+  "competition/deployment/native_image_source/Resample.c": {
+    "origin": "final-native-source",
+    "original_sha256": "759eca1de3a252f3140c65bfd642f941642a11dff4bc213766d5836abbcb73db",
+    "published_sha256": "759eca1de3a252f3140c65bfd642f941642a11dff4bc213766d5836abbcb73db"
+  },
+  "competition/deployment/native_image_source/Resample.c.original": {
+    "origin": "final-native-source",
+    "original_sha256": "808c212d03289b9ab70fad67168da1b14ed8dd74f1607c7a7278c50cbc1ae0ab",
+    "published_sha256": "808c212d03289b9ab70fad67168da1b14ed8dd74f1607c7a7278c50cbc1ae0ab"
+  },
+  "research/acrima/glaucoma/calibration.py": {
+    "origin": "independent-acrima-server",
+    "original_sha256": "90f6acc0d24ada059ba2c5c696e958cec3e0588bca8502f264b1c278a68ac3f4",
+    "published_sha256": "90f6acc0d24ada059ba2c5c696e958cec3e0588bca8502f264b1c278a68ac3f4"
+  },
+  "research/acrima/glaucoma/common.py": {
+    "origin": "independent-acrima-server",
+    "original_sha256": "47141ee0067aacf83cb5d57daa91ae9466afd3b1343d0a90ca63c7a4ba63a6c0",
+    "published_sha256": "47141ee0067aacf83cb5d57daa91ae9466afd3b1343d0a90ca63c7a4ba63a6c0"
+  },
+  "research/acrima/glaucoma/data.py": {
+    "origin": "independent-acrima-server",
+    "original_sha256": "321386d72de4a246f84d4ca6b37f670513a9ac3ec3cf465f01c2105dd7c273bf",
+    "published_sha256": "321386d72de4a246f84d4ca6b37f670513a9ac3ec3cf465f01c2105dd7c273bf"
+  },
+  "research/acrima/glaucoma/engine.py": {
+    "origin": "independent-acrima-server",
+    "original_sha256": "3dc9927bef45ff784c2b415269f346e542e2555a1c4d0b8dec9c12ea97e58b01",
+    "published_sha256": "3dc9927bef45ff784c2b415269f346e542e2555a1c4d0b8dec9c12ea97e58b01"
+  },
+  "research/acrima/glaucoma/metrics.py": {
+    "origin": "independent-acrima-server",
+    "original_sha256": "5c6996fbe6c53456dbc0f55f14691263759479856d8e2dfefb02a96da0af7991",
+    "published_sha256": "5c6996fbe6c53456dbc0f55f14691263759479856d8e2dfefb02a96da0af7991"
+  },
+  "research/acrima/glaucoma/models.py": {
+    "origin": "independent-acrima-server",
+    "original_sha256": "f511948412e5c73597080540998f1f6af0018189827a59f016d63bb839c10d0b",
+    "published_sha256": "f511948412e5c73597080540998f1f6af0018189827a59f016d63bb839c10d0b"
+  },
+  "research/acrima/glaucoma/pipeline.py": {
+    "origin": "independent-acrima-server",
+    "original_sha256": "5cc337c182470ad1521bed505bcce98b3a8c50af9ba5df6d55f6a5d3c68dc49f",
+    "published_sha256": "5cc337c182470ad1521bed505bcce98b3a8c50af9ba5df6d55f6a5d3c68dc49f"
+  },
+  "research/acrima/glaucoma/protocol.py": {
+    "origin": "independent-acrima-server",
+    "original_sha256": "47f21946442b48d0fe49b6865c0084c13050a99d110066152f0c72f88744b078",
+    "published_sha256": "47f21946442b48d0fe49b6865c0084c13050a99d110066152f0c72f88744b078"
+  },
+  "research/acrima/glaucoma/__init__.py": {
+    "origin": "independent-acrima-server",
+    "original_sha256": "7d7c6d0afcba50abe9d01bfbdb55923726167fb6dda990def728eca508374702",
+    "published_sha256": "7d7c6d0afcba50abe9d01bfbdb55923726167fb6dda990def728eca508374702"
+  },
+  "research/acrima/glaucoma/__main__.py": {
+    "origin": "independent-acrima-server",
+    "original_sha256": "a804ad496fb6818646bae6a36df1d5686441bbcbf2890cd5d6a5cf8bddbb751b",
+    "published_sha256": "a804ad496fb6818646bae6a36df1d5686441bbcbf2890cd5d6a5cf8bddbb751b"
+  },
+  "research/acrima/configs/acrima_4090.json": {
+    "origin": "independent-acrima-server",
+    "original_sha256": "dfe49e0ec26e09ab68541fe44b9d64b01e9ef52412137b9d9ad1251829d78e5b",
+    "published_sha256": "dfe49e0ec26e09ab68541fe44b9d64b01e9ef52412137b9d9ad1251829d78e5b"
+  },
+  "research/acrima/tests/conftest.py": {
+    "origin": "independent-acrima-server",
+    "original_sha256": "9221a9cbf45168e9a43aeaa6011c53d2a85f7b79fa030cbff4fdb28eaba6b9fa",
+    "published_sha256": "9221a9cbf45168e9a43aeaa6011c53d2a85f7b79fa030cbff4fdb28eaba6b9fa"
+  },
+  "research/acrima/tests/test_integration.py": {
+    "origin": "independent-acrima-server",
+    "original_sha256": "deba5484a3c15a0ebe904a4f130baef641e675c3564550c66307bf11916c65e7",
+    "published_sha256": "deba5484a3c15a0ebe904a4f130baef641e675c3564550c66307bf11916c65e7"
+  },
+  "research/acrima/tests/test_metrics.py": {
+    "origin": "independent-acrima-server",
+    "original_sha256": "6c1dd3f4155bd47a2b1b923b7a7f01f83b61ac7ad64b4ea41526329024c5b5f0",
+    "published_sha256": "6c1dd3f4155bd47a2b1b923b7a7f01f83b61ac7ad64b4ea41526329024c5b5f0"
+  },
+  "research/acrima/tests/test_protocol_and_training.py": {
+    "origin": "independent-acrima-server",
+    "original_sha256": "125d6c4fa10aaf7e1883c003e099a00b22d89b7aa867b84c97ead01444c69f7c",
+    "published_sha256": "125d6c4fa10aaf7e1883c003e099a00b22d89b7aa867b84c97ead01444c69f7c"
+  },
+  "research/acrima/requirements.txt": {
+    "origin": "independent-acrima-server",
+    "original_sha256": "54c1eef01d8e67bed81903e718ed23103b2ef9e4eb61d06b3770f5b410bf6cf4",
+    "published_sha256": "54c1eef01d8e67bed81903e718ed23103b2ef9e4eb61d06b3770f5b410bf6cf4"
+  },
+  "research/acrima/requirements-dev.txt": {
+    "origin": "independent-acrima-server",
+    "original_sha256": "7506a87e3996f427dbef2f1d9770401515b0d3344cc68358b9e03a6f07e9b226",
+    "published_sha256": "7506a87e3996f427dbef2f1d9770401515b0d3344cc68358b9e03a6f07e9b226"
+  },
+  "research/acrima/pytest.ini": {
+    "origin": "independent-acrima-server",
+    "original_sha256": "6a96ba0e2d5a8296fb90f474da9d2f0173d3e41eba18965513f711104155f913",
+    "published_sha256": "6a96ba0e2d5a8296fb90f474da9d2f0173d3e41eba18965513f711104155f913"
+  },
+  "licenses/torchvision_LICENSE.txt": {
+    "origin": "upstream-license",
+    "original_sha256": "6502f676851cfe25f8af75531dfb32375b7325b73c37e7b43741fa422893e71d",
+    "published_sha256": "6502f676851cfe25f8af75531dfb32375b7325b73c37e7b43741fa422893e71d"
+  },
+  "licenses/convnext_v1_LICENSE.txt": {
+    "origin": "upstream-license",
+    "original_sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+    "published_sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+  },
+  "licenses/Pillow_LICENSE.txt": {
+    "origin": "upstream-license",
+    "original_sha256": "15181e7363dca9aed78b79bebebc7fde7f1814b8bd311ea3b87ae8ccadfc185b",
+    "published_sha256": "15181e7363dca9aed78b79bebebc7fde7f1814b8bd311ea3b87ae8ccadfc185b"
+  }
+}

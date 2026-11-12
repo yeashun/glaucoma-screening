@@ -1,0 +1,19 @@
+{
+  "kind": "global",
+  "use_age": false,
+  "pretrained": true,
+  "epochs": 14,
+  "warmup_epochs": 1,
+  "effective_batch": 32,
+  "workers": 4,
+  "cpu_threads": 4,
+  "backbone_lr": 3e-05,
+  "head_lr": 0.0003,
+  "gamma": false,
+  "weight_decay": 0.0001,
+  "exclude_bias_norm_from_wd": false,
+  "backbone": "convnext_tiny",
+  "image_size": 384,
+  "batch_size": 16,
+  "seed": 42
+}

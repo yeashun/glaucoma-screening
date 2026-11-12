@@ -1,0 +1,1 @@
+{"backbone":"convnext_tiny","kind":"global","use_age":true,"pretrained":true,"epochs":14,"warmup_epochs":1,"image_size":448,"batch_size":16,"effective_batch":32,"workers":8,"cpu_threads":4,"backbone_lr":0.00003,"head_lr":0.0003,"stratified_from":10,"rank_lambda":0.0,"seed":42}

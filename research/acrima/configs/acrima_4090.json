@@ -1,0 +1,41 @@
+{
+  "seed": 42,
+  "output_dir": "runs/acrima_b0_seed42",
+  "data": {
+    "root": "data/ACRIMA_binary",
+    "expected_counts": {"train": 493, "val": 106, "test": 106}
+  },
+  "metrics": {
+    "primary": "auroc",
+    "secondary": "auprc",
+    "auprc_definition": "trapezoidal",
+    "report_average_precision": true,
+    "ece_bins": 5
+  },
+  "cv": {"folds": 3},
+  "training": {
+    "device": "cuda",
+    "batch_size": 32,
+    "feature_batch_size": 64,
+    "workers": 8,
+    "cpu_threads": 4,
+    "amp": "bf16",
+    "channels_last": true,
+    "dropout": 0.2,
+    "warmup_epochs": 3,
+    "finetune_epochs": 20,
+    "head_warmup_lr": 0.001,
+    "backbone_lr": 0.00001,
+    "head_finetune_lr": 0.0001,
+    "weight_decay": 0.0001,
+    "patience": 5
+  },
+  "logistic": {"c_values": [0.01, 0.1, 1.0]},
+  "calibration": {"target_sensitivity": 0.9},
+  "evaluation": {"bootstrap_samples": 2000, "benchmark_warmup": 5, "benchmark_repeats": 20},
+  "experiments": [
+    {"name": "E1", "method": "logistic", "backbone": "efficientnet_b0", "weights": "IMAGENET1K_V1", "weights_path": null, "image_size": 224, "augmentation": false},
+    {"name": "E2", "method": "finetune", "backbone": "efficientnet_b0", "weights": "IMAGENET1K_V1", "weights_path": null, "image_size": 224, "augmentation": false},
+    {"name": "E3", "method": "finetune", "backbone": "efficientnet_b0", "weights": "IMAGENET1K_V1", "weights_path": null, "image_size": 224, "augmentation": true}
+  ]
+}

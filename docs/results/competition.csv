@@ -1,0 +1,11 @@
+scheme,model,image_size,validation_auroc,validation_ap,website_score,note
+E00,EfficientNet-V2-S,384,0.9752877360323797,0.763937,97.23,website score reported by project owner
+E-AUC01-best,EfficientNet-V2-S + pairwise loss,384,0.97383,0.766594,,did not replace E00
+E512,EfficientNet-V2-S,512,0.980583,0.766355,,resolution ablation
+C00-s42,ConvNeXt-Tiny,384,0.9844842774628519,0.8071559342881836,97.96,epoch 9
+C00-s43,ConvNeXt-Tiny,384,0.9849922918760261,0.8065406468313747,,independent seed check
+Gamma-s42,ConvNeXt-Tiny + Gamma augmentation,384,0.9857191503852212,0.811655,,epoch 6
+EMA-average,ConvNeXt-Tiny,384,0.985562767077705,0.833224,,best AP among these candidates
+Age-s42,ConvNeXt-Tiny + age,384,0.984377,0.815855,,did not improve primary metric
+C448-s42,ConvNeXt-Tiny,448,0.983496,0.811698,,512 follow-up not launched
+C00+Gamma-OOF,two ConvNeXt-Tiny models,384,0.9874051290023486,0.827118416,98.13,frozen train-only OOF logistic stack

@@ -1,0 +1,1 @@
+{"backbone":"efficientnet_v2_s","kind":"fusion","use_age":true,"pretrained":true,"epochs":4,"warmup_epochs":1,"image_size":384,"local_size":320,"batch_size":16,"effective_batch":32,"workers":8,"cpu_threads":4,"backbone_lr":0.00001,"head_lr":0.0003,"freeze_global":true,"freeze_local":true,"seed":42}
