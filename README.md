@@ -2,27 +2,14 @@
 
 **Imbalanced fundus classification · OOF stacking · Reproducible inference**
 
-一个面向眼底图像青光眼二分类的完整机器学习项目：从数据审计、迁移学习和受控消融，到训练集OOF融合、概率核验与推理加速。项目同时保留一套独立的ACRIMA研究基线，展示交叉验证、概率校准和测试集隔离的实现。
+一个面向眼底图像青光眼二分类的完整机器学习项目：从数据审计、迁移学习和受控消融，到训练集OOF融合、概率核验与推理加速。
 
 ![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12-3776AB)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.10%20CPU%20target-EE4C2C)
 ![License](https://img.shields.io/badge/License-MIT-green)
 [![Synthetic checks](https://github.com/yeashun/glaucoma-screening/actions/workflows/tests.yml/badge.svg)](https://github.com/yeashun/glaucoma-screening/actions/workflows/tests.yml)
 
-> 本仓库公开项目代码、配置与汇总结果，不包含比赛原始数据、逐图标签/预测、训练权重或账号信息。它是研究与竞赛工程记录，不是经过临床验证的诊断产品。
 
-## 结果概览
-
-| 项目 | 结果 | 统计口径 |
-| --- | --- | --- |
-| 比赛官网显示成绩 | **98.13分** | 项目作者反馈；原版与加速版CSV均取得该显示分数；不是分类准确率 |
-| 最佳融合验证AUROC / AP | **0.987405 / 0.827118** | 官方验证划分；AP与梯形PR-AUC分别记录 |
-| 加速版单图端到端耗时 | **80.203ms** | RTX4090，自选100张、5预热、batch=1串行3轮；**不是T4验收结果** |
-| 加速实现与当前CSV一致性 | **0张不一致，最大概率差0** | 上述100张连续3轮，检查标签、排序和概率 |
-| 推理模型及必要JSON | **223.50MB** | 两路ConvNeXt-Tiny，按实际推理加载文件统计 |
-| 独立ACRIMA研究测试AUROC | **0.984493** | 独立数据与评估协议，不能与比赛分数直接比较 |
-
-比赛成绩由 **E00的97.23 → C00的97.96 → C00＋Gamma融合的98.13** 逐步提升。最后一项融合使用训练集五折OOF拟合标准化logit上的Logistic回归；官方验证集没有参与融合系数拟合，测试图没有用于训练或参数拟合。详细结果见[实验记录](docs/experiments.md)与[汇总数据](docs/results/competition.csv)。
 
 ## 核心工作
 
