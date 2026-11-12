@@ -50,7 +50,6 @@ tests/                       无真实数据、无下载、无GPU的合成回归
 licenses/                    上游许可证原文
 ```
 
-两个项目的`glaucoma`包独立使用；请按各自目录运行，**ACRIMA不是本比赛的训练数据或医学预训练来源**。[独立研究模块](research/acrima/README.md)给出完整边界。
 
 ## 快速开始
 
@@ -80,7 +79,6 @@ CUDA_VISIBLE_DEVICES=0 python v2_experiment/train.py \
 
 权重下载只使用通用ImageNet初始化；GPU编号由运行者指定。完整的缓存、Gamma、OOF和私有权重推理命令见[复现指南](docs/reproduction.md)。没有数据和训练产物时，不能直接复现官网分数。
 
-**公开源码默认使用系统Pillow；80.203ms来自原离线并行Pillow运行时与特定软硬件环境。** 仓库保留其修改前后C源码和加载逻辑，但不分发编译二进制。标准Pillow路径可运行，不保证相同延迟；T4正式复测状态仍为未完成。
 
 ## 阅读路线
 
